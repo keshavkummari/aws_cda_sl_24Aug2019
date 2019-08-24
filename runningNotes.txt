@@ -1,0 +1,106 @@
+
+
+Types of AWS Cloud Accounts :
+
+Company : keshavkummari.com
+
+Cloud Engineer : @ KK.com 
+
+STEP-1 :  Create Account with AWS :
+
+Company Account Creation Process :
+
+1. mgmt(hr,fin,etc..)
+2. ops()
+3. development
+4. qa
+5. devops
+6. r&d 
+7. sales & marketing 
+
+
+https://aws.amazon.com 
+
+1. FirstName
+2. LastName
+3. MobileNo
+4. Email Id
+5. Billing Address
+6. Debit/Credit Card Details 
+
+Individual User Account Creation Process :
+
+https://aws.amazon.com 
+
+1. FirstName
+2. LastName
+3. MobileNo
+4. Email Id
+5. Billing Address
+6. Debit/Credit Card Details 
+
+Types of Users :
+
+1. Root User :
+
+URL : https://aws.amazon.com 
+
+UserName : firstname.lastname@gmail.com
+PassWord : ************
+
+2. IAM User Account :
+
+Customized Company URL : https://keshavkummari.aws.amazon.com/
+
+Account Name or ID : keshavkummari 
+UserName : firstname.lastname 
+PassWord : *******
+
+https://kk-cloud.signin.aws.amazon.com/console
+https://kk-cloud.signin.aws.amazon.com/console
+
+
+
+AWS Resources and Services :
+
+Region and Global 
+
+
+Region :
+
+1. VPC
+2. EC2
+
+Global :
+
+1. IAM 
+
+
+Desktop / Laptops & Servers  : 
+
+Operating Systems :
+
+1. Unix             : Only CUI    & Distribution  
+2. MacOS            : GUI + CUI/CLI/TEXT Mode 
+3. Windows          : GUI + CUI/CLI/TEXT Mode (DOS - Only CUI)
+4. Linux            : GUI + CUI/CLI/TEXT Mode & Distribution 
+
+Ways of things we do ?
+
+Note : root : Please DO NOT USE root logins of AWS 
+
+IAM : rajkumar (AdministratorAccess)
+
+EC2 = Linux or Windows :
+
+GUI or CUI or Script 
+
+
+MacOS : awscli --version 
+
+
+
+aws ec2 run-instances --image-id "ami-0ff8a91507f77f867" --count 1 --instance-type t2.micro --key-name nn_kk --security-group-ids "sg-09ccd314f6ba6db1b" --subnet-id "subnet-04fa2a3b0e9f4302f" --tag-specifications 'ResourceType=instance,Tags=[{Key=ToDoAdministration,Value=BastionServer}]'
+"InstanceId": "i-03327ff0b02915a27"
+
+
