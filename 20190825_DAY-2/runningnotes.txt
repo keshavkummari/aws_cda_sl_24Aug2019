@@ -1,0 +1,133 @@
+
+
+VCS / SCM : Github, Gitlab, BitBucket, AWS CodeCommit, AzureRepo 
+
+gitbash software : Windows/MacOS/Linux/Unix  
+
+Developer : Continuous Collabrative Development 
+
+Code : Java Code()
+
+    - Server Side Programming 
+    - Client Side Programming
+    - DB Scripts
+    - Infrastructure implementation 
+
+Code : Centralized Version Control System :
+
+Branches : Code Repository 
+
+Administrator@EC2AMAZ-48440O2 MINGW64 ~/aws_test (master)
+$ history
+    1  pwd
+    2  git clone https://github.com/keshavkummari/aws_test.git
+    3  ls -ld aws_test/
+    4  ls -lrta aws_test/
+    5  mkdir test001
+    6  ls -lrt test001/
+    7  ls -lrta test001/
+    8  pwd
+    9  # git clone https://github.com/keshavkummari/aws_test.git
+   10  ls -ld aws_test/
+   11  ls -lrta aws_test/
+   12  ls -ld test001/
+   13  ls -lrta test001/
+   14  ls -lrta aws_test/.git/
+   15  pwd
+   16  ls -lrt aws_test/
+   17  ls -lrta aws_test/
+   18  ls -lrt test001/
+   19  ls -lrta test001/
+   20  cd test001/
+   21  mkdir .git
+   22  ls -lrt
+   23  pwd
+   24  cd ../
+   25  ls -lrta test001/
+   26  ls -lrta test001/.git/
+   27  pwd
+   28  pwd
+   29  ls -lrta aws_test/
+   30  cd aws_test/
+   31  pwd
+   32  ls -lrta
+   33  touch abc.txt
+   34  ls -lrta
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "MyFirstLocalCommit"
+   39  git status
+   40  git config --global user.name "keshavkummari"
+   41  git config --global user.email "keshav.kummari@gmail.com"
+   42  git status
+   43  git commit -m "MyFirstLocalCommit"
+   44  git status
+
+# cd aws_test
+# ls -lrta 
+# git status 
+# touch abc.txt
+# ls -lrta
+# git status 
+# git add .
+# git status
+# git config --global user.name "keshavkummari"
+# git config --global user.email "keshav.kummari@gmail.com"
+# git commit -m "MyFirstLocalCommit"
+# git status
+# git push -u origin master 
+
+Download, Install and Configure aws cli software on Windows,MacOS & Linux Machines:
+
+# aws-cli  software 
+
+
+
+Download, Install and Configure AWS CLI :
+
+Windows,Linux, & MacOS :
+
+Types of  AWS Accounts :
+
+Root Account
+
+&
+
+IAM User account 
+
+Root or IAM Users can have 2 different ways :
+
+1. AWS Mgmt Console : Any Browser 
+
+2. AWS CLI : 
+
+3. SDK :  (Java,.net,Nodejs,python) 
+
+
+Host a Website on AWS Cloud :
+
+1. Linux (Amazon Linux -2 )
+
+
+#!/bin/bash
+cd /opt/
+yum install wget* curl* vim* unzip* -y
+yum update -y
+wget https://www.free-css.com/assets/files/free-css-templates/download/page231/bizexpress-v1.0.1.zip
+unzip *.zip
+cd Biz*
+yum install http* --skip-broken -y
+mv * /var/www/html/
+service httpd start
+
+Amazon Linux : 
+
+Default User  : ec2-user 
+
+Key pair : Public and PrivateKey 
+
+ssh -i "PrivateKey.pem" ec2-user@ipaddress 
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html?icmpid=docs_ec2_console
+
