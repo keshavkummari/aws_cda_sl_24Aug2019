@@ -1,0 +1,41 @@
+
+Agenda :
+
+1. Database
+2. Self Managed Database
+3. Route53 
+4. CloudFront
+
+
+Database
+
+1. RDS
+2. DynamoDB
+3. ElastiCache
+4. Neptune
+5. Amazon Redshift
+6. Amazon QLDB
+7. Amazon DocumentDB
+
+
+#!/bin/bash
+cd /opt/
+yum install wget* curl* vim* unzip* -y
+yum update -y
+wget https://www.free-css.com/assets/files/free-css-templates/download/page231/bizexpress-v1.0.1.zip
+unzip *.zip
+cd Biz*
+yum install http* --skip-broken -y
+mv * /var/www/html/
+service httpd start
+
+#!/bin/bash
+cd /opt/
+yum install wget* curl* vim* unzip* -y
+yum update -y
+yum install http* --skip-broken -y
+echo "Welcome to N.Virginia Server" >> /var/www/html/index.html
+service httpd start
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-failover
+
