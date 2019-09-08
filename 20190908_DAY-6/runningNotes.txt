@@ -1,0 +1,33 @@
+
+Agenda :
+
+1. S3 Bucket
+
+2. CloudFront
+
+3. ACM (SSL)
+
+4. Route53 
+
+5. CloudFormation 
+
+6. Developer Tools (CD/CD pipeline - nextweek)
+
+{
+    "Version": "2012-10-17",
+    "Id": "PolicyId2",
+    "Statement": [
+        {
+            "Sid": "AllowIPmix",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::codewithckk/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "183.83.169.122/32"
+                }
+            }
+        }
+    ]
+}
